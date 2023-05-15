@@ -1,6 +1,7 @@
-.intro__list_num {
+.intro__list-num {
 	margin: 0;
 	padding: 0;
+	display: inline; 
 	font-family: 'Inter', 'Arial', sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -8,5 +9,4 @@
 	line-height: 18px;
 	color: #FFFFFF;
 	list-style-type: none;
-	display: inline;
 }
