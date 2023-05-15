@@ -5,7 +5,7 @@
   row-gap: 48px;
   grid-template-rows: auto;
   margin: 80px auto 0;
-} 
+}
 
 .place:nth-child(1) {
     margin-top: 0;
