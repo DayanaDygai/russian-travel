@@ -7,8 +7,9 @@
   z-index: 1;
   top: 0;
   right: 0;
+  color: #000;
 }
 
-.cover__overlay:hover {
+.cover__link:hover .cover__overlay {
   opacity: 0.8;
 }

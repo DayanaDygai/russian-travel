@@ -9,15 +9,27 @@
 
 @media screen and (max-width: 1279px) {
     .footer {
-      width: calc(100% - 48px);
+      width: calc(100% - 96px);
     }
   }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .footer {
+    width: calc(100% - 24px);
+  }
+}
   
-  @media screen and (max-width: 620px) {
-    .footer {
-    max-width: 186px;
-    align-items: flex-start;
-    padding: 64px 0 24px 16px;
-    margin: 0;
-  }
-  }
+@media screen and (max-width: 480px) {
+  .footer {
+  max-width: 186px;
+  align-items: flex-start;
+  padding: 64px 0 24px 16px;
+  margin: 0;
+}
+}
